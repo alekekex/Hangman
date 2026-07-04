@@ -11,7 +11,6 @@ public class Main {
         boolean isRunning = true;
 
         while(isRunning) {
-
             Display.displayIntro();
             System.out.print("Are you ready to play? (Yes or No): ");
             String choice = sc.nextLine().toLowerCase();
