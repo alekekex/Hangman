@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Reader r = new Reader();
-        String filePath = "words.txt";//"test.txt";
+        String filePath = "words.txt";//DEBUG: "test.txt";
         ArrayList<String> list = r.readFile(filePath);
         boolean isRunning = true;
 

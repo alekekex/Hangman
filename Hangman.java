@@ -43,7 +43,7 @@ public class Hangman {
     public String randomWord() {
         Random rnd = new Random();
         int idx = rnd.nextInt(words.size());
-        return words.get(idx).toUpperCase();//"angela".toUpperCase();
+        return words.get(idx).toUpperCase();//DEBUG: "angela".toUpperCase();
     }
 
     public void fillWithBlanks(int n) {
