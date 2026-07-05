@@ -30,7 +30,7 @@ A console-based Hangman game written in Java. This project was created to practi
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/alekekex/Hangman.git
 ```
 
 2. Change to the project directory:
