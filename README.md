@@ -5,7 +5,7 @@ A console-based Hangman game written in Java. This project was created to practi
 ## Features
 
 - Random word selection from a text file
-- ASCII hangman display
+- ASCII Hangman display
 - Input validation
 - Duplicate guess detection
 - Win and loss detection
