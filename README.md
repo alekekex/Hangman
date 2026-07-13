@@ -5,7 +5,7 @@ A console-based Hangman game written in Java. This project was created to practi
 ## Features
 
 - Random word selection from a text file
-- ASCII hangman display
+- ASCII Hangman display
 - Input validation
 - Duplicate guess detection
 - Win and loss detection
@@ -30,7 +30,7 @@ A console-based Hangman game written in Java. This project was created to practi
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/alekekex/Hangman.git
 ```
 
 2. Change to the project directory:
@@ -65,3 +65,7 @@ Hangman/
 ├── .gitignore
 └── README.md
 ```
+
+## License
+
+This project was created for learning, personal practice, and fun.
