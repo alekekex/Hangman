@@ -13,7 +13,7 @@ public class Main {
             Display.displayIntro();
             System.out.print("Are you ready to play? (Yes or No): ");
             String choice = sc.nextLine().toLowerCase();
-            System.out.println();
+            System.out.println()
 
             switch(choice) {
                 case "yes":
