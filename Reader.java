@@ -8,15 +8,15 @@ public class Reader {
     public ArrayList<String> readFile(String filePath) {
         ArrayList<String> lines = new ArrayList<String>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader(filePath));) {
+        try(BufferedReader br = new BufferedReader(new FileReader(filePath));) {
             String line;
 
             while((line = br.readLine()) != null)
                 lines.add(line);
 
-        } catch (FileNotFoundException e) {
+        } catch(FileNotFoundException e) {
             System.out.println("Could not locate file.");
-        } catch (IOException e) {
+        } catch(IOException e) {
             System.out.println("Could not read file.");
         }
 
